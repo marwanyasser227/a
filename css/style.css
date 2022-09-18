@@ -70,7 +70,7 @@ h2{
 
 }
 .books{
-    padding: 50px 0px !important;
+    padding: 40px 0px !important;
 }
 i{
     margin-right: 15px;
@@ -124,4 +124,74 @@ ul{
 }
 .copy{
     margin-right: 10%;
+}
+.btn{
+    font-family: tajawal;
+}
+input{
+    font-family: tajawal;
+}
+input[type="email"]{
+    text-align: end;
+}
+
+@media only screen and (max-width:574px){
+
+
+  .img-hero{
+    display:none ;
+    top: 30px;
+  }
+  .right h1{
+    font-size: 2.0rem;
+    text-align: center;
+
+  }
+  
+  .right{
+    margin-top: 50%;
+    text-align: center;
+
+
+  }
+  .right .main-btn{
+    display: grid;
+    
+  }
+  .form1 input , .s-btn{
+   display: none;
+  }
+  .navbar-toggler{
+    margin-right: 50%;
+  }
+  footer .info p{
+    width: 100%;
+    padding: 15px 5px;
+
+
+  }
+  .info , .menu{
+    padding-bottom: 30px;
+
+  }
+  
+  li{
+    display: inline;
+    margin-left: 10px;
+    margin-top: 25px 0px;
+
+  }
+  .down img{
+    margin-left: 5px;
+    margin-right: 25px;
+    margin-top: 10px 0px;
+
+  }
+  footer p{
+    color: white !important;
+  }
+  .contact .forma{
+    margin-top: -45px !important;
+  }
+
 }
