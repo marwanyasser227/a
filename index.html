@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo-40x40.png">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
@@ -29,7 +30,7 @@
 
                   <form class="d-flex align-items-center col-4 form1" role="search" >
                     <input class="form-control me-2 form-control-md px-2 " type="search" placeholder="ابحث عن الكاتب أو المؤلف أو دار النشر" aria-label="Search">
-                    <button class="btn btn-outline-danger w-50" type="submit">ابحث </button>
+                    <button class="btn btn-outline-danger w-50 s-btn" type="submit">ابحث </button>
                   </form>
             
 
@@ -69,11 +70,14 @@
                         أعَزُّ مَكانٍ في الدُّنَى سَرْجُ سابحٍ <br>وَخَيرُ جَليسٍ في الزّمانِ كِتابُ
                     </h1>
                     <p class="quot">"أبو الطيب المتنبي"</p>
-                    <a href="#" class="btn btn-danger btn-lg">تصفح المكتبة</a>
+                    <div class="main-btn">
+                      <a href="#" class="btn btn-danger btn-lg">تصفح المكتبة</a>
+
+                    </div>
                  </div><!--right-->
 
                  <div class="col-md-6 col-sm-6 left">
-                   <img src="images/left-hero.jpg" class="img-fluid h-75 text-center wow fadeIn data-wow-duration:0.5s">
+                   <img src="images/left-hero.jpg" class="img-fluid h-75 text-center wow fadeIn data-wow-duration:0.5s img-hero">
                  </div><!--left-->
                  
                 
@@ -85,13 +89,18 @@
        <form>
         <div class="row">
           <div class="col-md-4 col-sm-6 mt-2">
-            <input type="name" class="form-control" placeholder="الاسم الكريم">
+            <input type="name" class="form-control form-control-lg" placeholder="الاسم الكريم">
           </div>
           <div class="col-md-4 col-sm-6 mt-2">
-            <input type="email"  class="form-control" placeholder="البريد الإلكتروني">
+            <input type="email"  class="form-control form-control-lg" placeholder="البريد الإلكتروني">
           </div>
           <div class="col-md-4 col-sm-6 d-grid mt-2"  >
-            <button type="submit" class="btn btn-danger btn-md  gap-1">اشترك الآن</button>
+            <button type="submit" class="btn btn-danger btn-md  gap-1">
+              اشترك الآن
+              <i class="fa-solid fa-envelope"></i>
+
+              
+            </button>
           </div>
         </form> 
         </div><!--row-->
@@ -253,7 +262,7 @@
           <p class="text-center">الرجاء ملئ النموذج التالي:</p>
           <hr class="hr1">
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 forma">
               <form class="mt-5 ">
                 <input type="name" class=" form-control form-control-lg input2 text-start" placeholder="الاسم الكريم">
                 <input type="email" class=" form-control form-control-lg input2 text-start" placeholder = "البريد الإلكتروني">
@@ -275,7 +284,7 @@
       <footer class="pt-5 pb-3">
         <div class="container">
           <div class="row">
-          <div class="col-md-4 col-sm-6">
+          <div class="col-md-4 col-sm-6 info">
             <h3 class="text-danger fw-bold">من نحن؟</h3>
             <hr class="hr2 ms-1">
             <p class="text-white">
@@ -283,7 +292,7 @@
 
             </p>
           </div><!--info-->
-          <div class="col-md-4 col-sm-6">
+          <div class="col-md-4 col-sm-6 menu ">
             <h3 class="text-danger fw-bold">روابط تهمك</h3>
             <hr class="hr2 ms-1">
             <nav>
@@ -308,7 +317,7 @@
             </nav><!--footernav-->
           </div><!--links-->
 
-          <div class="col-4 ">
+          <div class="col-md-4 col-sm-6 down">
             <h3 class="text-danger fw-bold">حمل التطبيق الآن</h3>
             <hr class="hr2 ms-1">
             <img src="images/app-store.webp" class="img-fluid" style="height:65px;">
